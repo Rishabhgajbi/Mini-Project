@@ -1,1 +1,1 @@
-# Mini-Project
+# Store Expence Tracker
