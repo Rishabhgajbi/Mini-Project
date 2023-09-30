@@ -1,0 +1,13 @@
+The "CSV to SQL Server Data Importer" is a Python script that automates the process of reading data from a CSV file and transferring it into a Microsoft SQL Server database. This project showcases your ability to work with data manipulation, file handling, and database integration using Python.
+
+Key Features:
+
+CSV Data Extraction: The script reads data from a CSV file, allowing you to specify the source file path.
+
+SQL Server Integration: It establishes a secure connection to your SQL Server database, enabling you to configure server details, database name, username, and password.
+
+Data Transformation: The script uses the pandas library to transform the CSV data into a structured format and parameterized SQL queries to insert data into SQL Server tables.
+
+Customization: You can easily adapt the script for different CSV file formats and SQL Server configurations by modifying variables like csv_file_path, server, database, username, password, and table_name.
+
+Error Handling: The code includes basic error handling to provide feedback in case of issues during data extraction or database insertion
