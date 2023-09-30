@@ -1,0 +1,23 @@
+Project Description:"Store Expenses Tracker"
+
+
+The "Store Expenses Tracker" is a Python project that helps users manage and track expenses for a retail store. It utilizes SQL Server for data storage and retrieval, Pandas for data manipulation, and Matplotlib for data visualization. Here's a brief overview of the project:
+
+
+Connection Management: The project establishes a database connection to a SQL Server database where store expenses data is stored.
+
+
+Adding Expenses: Users can input expenses data, including an item ID, category, amount, and date. This data is inserted into the database using parameterized SQL queries to prevent SQL injection.
+
+
+Retrieving Expenses: Users can retrieve and view the recorded expenses. The project retrieves all expenses from the database and displays them.
+
+Data Visualization: Users have the option to visualize the expenses data using a bar graph. Matplotlib is used to create a graphical representation of expenses by category and amount.
+
+
+Modular Code: The project is organized into classes, making it modular and maintainable. The code is separated into an external module (expenses_module.py) and a main script (main.py) for clarity and reusability.
+
+
+
+
+
